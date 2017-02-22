@@ -1,0 +1,82 @@
+.jcarousel-wrapper {
+    position: relative;
+}
+
+/** Carousel **/
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel li {
+    float: left;
+}
+
+.jcarousel img {
+    display: block;
+    width: 100%;
+}
+
+/** Carousel Controls **/
+.jcarousel-control-prev,
+.jcarousel-control-next {
+	float:left;
+	display: block;
+	text-indent:-1000em;
+    top: 0;
+	width: 8px;
+	height: 19px;
+	z-index: 2;
+	background: url(../images/multimediaNav.png);
+}
+
+.jcarousel-control-prev {
+    left: 0;
+}
+.jcarousel-control-prev:hover{
+}
+
+.jcarousel-control-next {
+    right: 0;
+	background-position:8px 0;
+}
+.jcarousel-control-next:hover{
+
+}
+
+/** Carousel Pagination **/
+
+.jcarousel-pagination {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    margin: 0;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background: #a8a8a8;
+    border-radius: 50%;
+    text-indent: -9999px;
+    margin-right: 15px;
+}
+
+.jcarousel-pagination a.active {
+    background: #13a89e;
+}

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/jcarousel.connected-carousels.css" rel="stylesheet">
+	<link href="css/jcarousel.responsive.css" rel="stylesheet">
+	<link href="css/jquery.selectBoxIt.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="js/jquery.jcarousel.min.js"></script>
+    <script src="js/jcarousel.connected-carousels.js"></script>
+    <script src="js/image-scale.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery-scrolltofixed.js"></script>
+    <script src="js/jquery.selectBoxIt.min.js"></script>
+    <script src="js/jquery.rotate.js"></script>
+    <script src="js/SocialShare.min.js"></script>
+    <script src="js/mainScripts.js"></script>
+    <script src="js/moreMainMenuInPages.js"></script>
+</head>
+
+<body>
+<div class="topLine">
+	<div class="backColor">
+	<div class="inner">
+    	<div class="grid23">
+            <a href="#" class="logo"><img src="images/logoTop.png" alt="" /></a>
+        </div><!--grid23-->
+    	<div class="grid51 left topLineCenter">
+            <div class="mainMenu">
+                <ul>
+                    <li class="active"><a href="#">Политика</a></li>
+                    <li><a href="#">Экономика</a></li>
+                    <li><a href="#">Лайфстайл</a></li>
+                    <li><a href="#">Арт</a></li>
+                    <li class="more last"><a>еще</a></li>
+                </ul>
+            </div><!--mainMenu-->
+            <div class="search">
+                <div class="in">
+                    <input type="text" />
+                    <div class="icon"></div>
+                </div>
+            </div><!--search-->
+        </div><!--grid51-->
+        <div class="grid26 right topLineRight">
+            <div class="login">
+                <ul>
+                    <li><a href="#">Вход</a></li>
+                </ul>
+            </div><!--login-->
+            <div class="social">
+                <ul>
+                    <li class="fb"><a href="#">facebook</a></li>
+                    <li class="vk"><a href="#">vkontakte</a></li>
+                    <li class="tw"><a href="#">twitter</a></li>
+                </ul>
+            </div><!--social-->
+            <div class="date">23.10.2016 пятница</div>
+        </div><!--grid26 right-->
+    </div><!--inner-->
+    </div><!--backColor-->
+	<div class="subMenuTop">
+    	<div class="in">
+            <ul>
+                <li><a href="#">Новости</a></li>
+                <li class="active"><a href="#">Публикации</a></li>
+                <li><a href="#">Голоса</a></li>
+                <li><a href="#">Мультимедиа</a></li>
+                <li><a href="#">Архив</a></li>
+            </ul>
+        </div><!--in-->
+    </div><!--subMenuTop-->
+</div><!--topLine-->
+<div class="wrapper">
+    <div class="grid100 noOverflow border archiveMargBot">
+                <div class="borderTopLine headTitle noLpad noOverflow">
+                    <h1>Архив</h1>
+                <div class="filter">
+                    <form>
+                        <div class="selectCont">
+                        	<div class="labelAnim">категория</div>
+                            <div class="selectWhiteBg">
+                                <select>
+                                    <option>Все категории</option>
+                                    <option>Политика</option>
+                                    <option>Экономика</option>
+                                    <option>Лайфстайл</option>
+                                    <option>Арт</option>
+                                </select>
+                            </div><!--selectWhiteBg-->
+                            <div class="whiteLine"></div><!--whiteLine-->
+                        </div>
+                        <div class="selectCont">
+                        	<div class="labelAnim">тип материала</div>
+                                <div class="selectWhiteBg">
+                                <select>
+                                    <option>Все материалы</option>
+                                    <option>Политика</option>
+                                    <option>Экономика</option>
+                                    <option>Лайфстайл</option>
+                                    <option>Арт</option>
+                                </select>
+                            </div><!--selectWhiteBg-->
+                            <div class="whiteLine"></div><!--whiteLine-->
+                        </div>
+                        <div class="dateCont">
+                            <div class="fromTo">c</div>
+                            <div class="clickCont">
+                            	<div class="shadow">
+                                	<div class="clk clk1">
+                                        <div class="date d1">сотворения мира</div>
+                                        <div class="dateIcon"></div>
+									</div>
+                                    <div class="calendarCont">
+                                    	<div class="calendar" id="cal1"></div>
+                                    	<div class="calendarBot">
+                                    	<div class="left">сотворение мира</div>
+                                        <div class="right">сегодня</div>
+                                    </div><!--calendarBot-->
+                                    </div>
+                                    <div class="whiteLine"></div>
+                                    <div class="clr"></div>
+                                </div><!--shadow-->
+                            </div><!--clickCont-->
+                        </div><!--dateCont-->
+                        <div class="dateCont">
+                            <div class="fromTo">по</div>
+                            <div class="clickCont clk2">
+                            	<div class="shadow">
+                                	<div class="clk clk1">
+                                        <div class="date d2">27 ноября 2016</div>
+                                        <div class="dateIcon"></div>
+									</div>
+                                     <div class="calendarCont">
+                                        <div class="calendar" id="cal2"></div>
+                                        <div class="calendarBot">
+                                            <div class="left">сотворение мира</div>
+                                            <div class="right">сегодня</div>
+                                        </div><!--calendarBot-->
+                                     </div>
+                                    <div class="whiteLine"></div>
+                                    <div class="clr"></div>
+                                </div><!--shadow-->
+                            </div><!--clickCont-->
+                        </div><!--dateCont-->
+                        <input type="submit" value="Применить фильтр" />
+                    </form>
+                </div><!--filter-->
+                <div class="clr"></div>
+            </div><!--borderTopLine-->
+            <div class="archiveList">
+            	<ul>
+                	<li>
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        	<div class="colorBlock green">
+                            	<span>инфографика</span>
+                                <div class="angle"></div>
+                            </div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Путін пообіцяв президенту Угорщини більш гнучкі умови 
+                                        контракту на постачання газу</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li>
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Тарифи на газ в Україні підвищать на 280%, 
+                                        на тепло — на 66%, — Гонтарева</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li class="bold">
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Суд остаточно забрав у фірми Ставицького 
+                                        першу частку на Сахалінському родовищі</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li class="bold red large">
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        	<div class="colorBlock gray">
+                            	<span>АТО</span>
+                                <div class="angle"></div>
+                            </div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Порошенко вилетів до зони АТО, ввечері скликає РНБО, — ЗМІ</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li>
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Україна готова до переговорів із бойовиками 
+                                        про полонених, — Наливайченко</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li class="image bold large">
+                    	<div class="leftCont">
+                            <a href="#" class="image">
+                                <img src="content/archive1.jpg" alt="" class="scale" />
+                                <div class="angle"></div>
+                            </a>
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="name"><a href="#">Дарья Андреева</a></div>
+                                    <div class="title">
+                                        <a href="#">Кто поставлял уголь Украине в 2014 году</a>
+                                    </div>
+                                    <div class="desc">
+                                        Больше всего топлива из РФ завезли компании ДТЭК, Мечел Зюзина,
+                                        УГМК Махмудова и СДС Федяева-Гридина</div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li>
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        	<div class="colorBlock red">
+                            	<span>Обновлено</span>
+                                <div class="angle"></div>
+                            </div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Віце-президент «Роснефти» пояснив санкції Канади
+                                         «бандерівським лобі»</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li class="red">
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">СБУ підозрює Єфремова у фінансуванні сепаратизму</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li>
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Прикордонники не пустили в Україну знімальну групу
+                                         московського бюро Al Jazeera, — ЗМІ</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li class="image bold large">
+                    	<div class="leftCont">
+                            <a href="#" class="image">
+                                <img src="content/archive2.jpg" alt="" class="scale" />
+                                <div class="angle"></div>
+                            </a>
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="name"><a href="#">Дарья Андреева</a></div>
+                                    <div class="title">
+                                        <a href="#">МУЗЫКА.UA: Как украинская группа Brunettes Shoot
+                                         Blondes стала мировой сенсацией</a>
+                                    </div>
+                                    <div class="desc">
+                                        Ребята из Кривого Рога рассказали, как они собрали больше
+                                        7 миллионов просмотров на YouTube
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li class="bold">
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        	<div class="colorBlock blue">
+                            	<span>ФОТО</span>
+                                <div class="angle"></div>
+                            </div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">«Газпром» повернув Eni кошти, вкладені в компанію 
+                                        з будівництва «Південного потоку»</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li class="bold red large">
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">«Інтеру» винесли попередження за російські фільми</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li>
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        	<div class="colorBlock green">
+                            	<span>инфографика</span>
+                                <div class="angle"></div>
+                            </div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Путін пообіцяв президенту Угорщини більш 
+                                        гнучкі умови контракту на постачання газу</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li>
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Тарифи на газ в Україні підвищать на 280%,
+                                         на тепло — на 66%, — Гонтарева</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li>
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Суд остаточно забрав у фірми Ставицького
+                                         першу частку на Сахалінському родовищі</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                    
+                	<li class="image bold large imgSmall">
+                    	<div class="leftCont">
+                        	<div class="in">
+                                <a href="#" class="image small">
+                                    <img src="content/archive3.jpg" alt="" class="scale" />
+                                    <div class="angle"></div>
+                                </a>
+                                <div class="time">12:34</div>
+                            </div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="name"><a href="#">Євген Будерацький:</a></div>
+                                    <div class="title">
+                                        <a href="#">Неуправляемая демократия. Что делать Украине 
+                                        с Россией без Путина?</a>
+                                    </div>
+                                    <div class="desc">
+                                        Мы и сейчас часто не можем спрогнозировать действия Кремля,
+                                        а что будет если ситуация станет абсолютно неподконтрольной?
+                                     </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li class="red bold large">
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        	<div class="colorBlock gray">
+                            	<span>АТО</span>
+                                <div class="angle"></div>
+                            </div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Порошенко вилетів до зони АТО, ввечері скликає РНБО, — ЗМІ</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li>
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Україна готова до переговорів із бойовиками про
+                                         полонених, — Наливайченко</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li>
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Тарифи на газ в Україні підвищать на 280%, на тепло — на 66%,
+                                         — Гонтарева</a>
+                                     </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li class="bold">
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Суд остаточно забрав у фірми Ставицького
+                                         першу частку на Сахалінському родовищі</a>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                	<li class="red bold large">
+                    	<div class="leftCont">
+                            <div class="time">12:34</div>
+                        	<div class="colorBlock gray">
+                            	<span>АТО</span>
+                                <div class="angle"></div>
+                            </div>
+                        </div><!--leftCont-->
+                    	<div class="rightCont">
+                        	<div class="table">
+                            	<div class="cell">
+                                    <div class="title">
+                                        <a href="#">Порошенко вилетів до зони АТО, ввечері скликає РНБО, — ЗМІ</a><br>
+                                    </div>
+                                </div><!--cell-->
+                            </div><!--table-->
+                        </div><!--rightCont-->
+                    </li>
+                </ul>
+            </div><!--archiveList-->
+        <div class="clr"></div>
+    </div><!--grid100-->
+    <div class="moreMaterial blue">
+    	<div class="cont">
+            <div class="icon rotate"></div>
+            <span> больше материалов</span>
+        </div>
+    </div>
+</div><!-- .wrapper -->
+	<footer class="footer">
+		<div class="inner">
+        	<div class="in first">
+            	<div class="grid21 botLogo">
+                    <div class="logoCopy">
+                        <img src="images/logoBot.jpg" alt="" />
+                        <p>© 2015 INSIDER</p>
+                    </div><!--logoCopy-->
+                </div>
+                <div class="grid69 left">
+                    <div class="firstMenu">
+                        <ul>
+                            <li><a href="#">ПОЛИТИКА</a></li>
+                            <li><a href="#">ЭКОНОМИКА</a></li>
+                            <li><a href="#">ЛАЙФСТАЙЛ</a></li>
+                            <li><a href="#">АРТ</a></li>
+                            <li><a href="#">ЕЩЕ</a></li>
+                            <li class="last"><a href="#">ПАМ’ЯТІ ВІКТОРА ГУРНЯКА</a></li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <div class="in">
+                            <input type="text" />
+                            <div class="icon"></div>
+                        </div>
+                    </div><!--search-->
+                </div><!--grid69-->
+                <div class="social">
+                    <ul>
+                        <li class="fb first"><a href="#">facebook</a></li>
+                        <li class="vk"><a href="#">vkontakte</a></li>
+                        <li class="tw"><a href="#">twitter</a></li>
+                    </ul>
+                </div><!--social-->
+            </div><!--in-->
+            <div class="botCont">
+	        	<div class="in">
+                	<div class="leftCont">
+                        <div class="secondMenu">
+                            <ul>
+                                <li><a href="#">Правила сайта</a></li>
+                                <li><a href="#">Политика конфиденциальности</a></li>
+                                <li class="last"><a href="#">Правила перепечати</a></li>
+                            </ul>
+                        </div><!--secondMenu-->
+                        <div class="desc">
+                            <p>При использовании материалов сайта ссылка на theinsider.ua обязательна.</p>
+                            <p>Перепечатка, копирование, воспроизведение или иное использование материалов,
+                             в которых содержится ссылка на агентства "Украинская Фото Группа", "УНИАН" и 
+                             "Украинское Фото", строго запрещено.
+                             </p>
+                            <p>Перепечатка, копирование или воспроизведение информации, содержащей ссылку на агентство 
+                            "Украинские Новости", в каком-либо виде строго запрещено. 
+                             </p>
+                            <p>Любое копирование, публикация, перепечатка или последующее распространение
+                             информации, содержащей ссылку на "Интерфакс-Украина", строго запрещено. 
+                             </p>
+                            <p>По вопросам рекламы обращайтесь <a href="#">advert@theinsider.com.ua</a></p>
+                            <p>E-mail редакции – <a href="#">info@theinsider.com.ua</a></p>
+                        </div>
+                    </div><!--leftCont-->
+					<div class="xpage">Разработка сайта — <a href="#">XPage</a></div>
+                </div><!--in-->
+            </div><!--botCont-->
+        </div><!--inner-->
+	</footer><!-- .footer -->
+</body>
+</html>
